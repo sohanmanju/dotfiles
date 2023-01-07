@@ -1,0 +1,93 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "git.autofetch": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Hasklig",
+  "editor.fontSize": 14,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "editor.autoClosingBrackets": "always",
+
+  "cSpell.userWords": ["imageupload", "systeminformation"],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "git.enableSmartCommit": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "yaml.validate": false,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "json.schemas": [],
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Min Dark",
+  "aws.profile": "profile:amplify-test",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "window.zoomLevel": 2,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "eslint.alwaysShowStatus": true,
+  "editor.accessibilitySupport": "off"
+}
